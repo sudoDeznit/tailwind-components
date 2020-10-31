@@ -1,0 +1,22 @@
+.root {
+  @apply px-5 py-5   rounded-md;
+}
+
+.root:focus {
+  @apply outline-none;
+}
+.root:placeholder {
+  @apply text-muted;
+}
+
+.big {
+  @apply h-16;
+}
+
+.regular {
+  @apply shadow-md  bg-white;
+}
+
+.outline {
+  @apply border-dark border bg-transparent;
+}

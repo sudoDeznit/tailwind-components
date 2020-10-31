@@ -1,0 +1,41 @@
+/* button */
+.root {
+  @apply inline-flex justify-center  rounded-md border border-transparent px-5 py-3 text-dark transition ease-in-out duration-150;
+}
+.root:hover {
+  @apply transform -translate-y-px shadow;
+}
+.root:focus {
+  @apply outline-none;
+}
+
+/* button-regular */
+
+.regular {
+  @apply bg-primary;
+}
+
+/* button-outline */
+.outline {
+  @apply justify-center  border-primary  bg-transparent  text-dark;
+}
+.outline:hover {
+  @apply transform -translate-y-px  bg-primary;
+}
+.outline:focus {
+  @apply outline-none;
+}
+
+/* loading */
+
+.loading,
+.loading:hover {
+  @apply cursor-not-allowed bg-primaryLight;
+}
+
+/* diabled */
+
+.disabled,
+.disabled:hover {
+  @apply bg-muted cursor-not-allowed border-muted;
+}
